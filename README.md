@@ -46,3 +46,26 @@ Now command to execute this is
 Now if you want to remove this then use this command
 
 **[rm -rf /tmp/info]**
+
+Now if we want to create a script file example script.sh we cant create inside the jenkins server. So we need to exit from jenkins then create .sh file
+
+The command is 
+**[vi script.sh]**
+
+Then we can add the script details example
+#!/bin/bash
+NAME=$1
+LASTNAME=$2
+echo "Hello $NAME $LASTNAME, How are you doing. Is everything going fine."
+.
+.
+
+Now we need to copy this script file to jenkins server. The command is
+
+**[docker cp script.sh practical_meninsky:/tmp/script.sh]**
+
+Now this will save inside the jenkins server.
+To see the file inside jenkins sercer the command is 
+**[cat /tmp/script.sh]**
+To run the script file
+**[/tmp/script.sh]**
