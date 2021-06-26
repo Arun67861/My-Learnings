@@ -64,6 +64,9 @@ Now we need to copy this script file to jenkins server. The command is
 
 **[docker cp script.sh practical_meninsky:/tmp/script.sh]**
 
+We need to give permission to execute this file for that command
+**[chmod +x ./script.sh]**
+
 Now this will save inside the jenkins server.
 To see the file inside jenkins sercer the command is 
 **[cat /tmp/script.sh]**
