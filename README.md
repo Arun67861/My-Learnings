@@ -75,3 +75,6 @@ To run the script file
 
 Docker compose command
 **[docker-compose up -d --build]**
+
+Command for genrete ssh key
+**[ssh key pairs like ssh-keygen -f remote-key2 -m PEM]**
