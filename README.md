@@ -72,3 +72,6 @@ To see the file inside jenkins sercer the command is
 **[cat /tmp/script.sh]**
 To run the script file
 **[/tmp/script.sh]**
+
+Docker compose command
+**[docker-compose up -d --build]**
